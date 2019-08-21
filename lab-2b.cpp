@@ -11,9 +11,9 @@ int main()
 		cin>>a[i];
 	cout<<" how many elements??";
 	cin>>k;
-	for(i=0;i<k-1;i++)
+	for(i=0;i<k;i++)
 	{
-		for(j=0;j<n-2-i;j++)
+		for(j=0;j<n-1-i;j++)
 		{
 			if(a[j+1]<a[j])
 			{
@@ -23,8 +23,11 @@ int main()
 			}
 		}
 	}
-	cout<<k<<" largest elements in an array is:\n";
-	for(i=n-1;i>k;i--)
-		cout<<a[i]<<"\n";
+	while(k!=0)
+	{
+		cout<<a[--n]<<"\n";
+		k--;
+	}
+	
 	return 0;
 }
