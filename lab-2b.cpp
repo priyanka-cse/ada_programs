@@ -22,12 +22,8 @@ int main()
 				a[j]=temp;
 			}
 		}
+		cout<<a[j]<<"\n";
 	}
-	while(k!=0)
-	{
-		cout<<a[--n]<<"\n";
-		k--;
-	}
-	
+
 	return 0;
 }
