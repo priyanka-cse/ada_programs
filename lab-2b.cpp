@@ -4,10 +4,12 @@ using namespace std;
 int main()
 {
 	int a[100],n,i,j,k,temp;
+	cout<<"enter size\n";
 	cin>>n;
+	cout<<"enter elements\n";
 	for(i=0;i<n;i++)
 		cin>>a[i];
-	cout<<"enter key";
+	cout<<" how many elements??";
 	cin>>k;
 	for(i=0;i<k-1;i++)
 	{
@@ -21,6 +23,7 @@ int main()
 			}
 		}
 	}
+	cout<<k<<" largest elements in an array is:\n";
 	for(i=n-1;i>k;i--)
 		cout<<a[i]<<"\n";
 	return 0;
