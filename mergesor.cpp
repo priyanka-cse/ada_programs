@@ -3,7 +3,7 @@
 using namespace std;
 void combine(int a[],int low,int mid,int high)
 {
-	int c[100],i,j,k;;
+	int c[100],i,j,k;
 	i=low;
 	j=mid+1;
 	k=low;
