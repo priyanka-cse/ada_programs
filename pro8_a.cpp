@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-	int i,N,arr[20],f,ele,s;
+	int i,N,arr[20],ele,s;
 	cout<<"enter the number of elemnts";
 	cin>>N;
 	cout<<"Enter elments";
@@ -13,8 +13,6 @@ int main()
 	}
 	for(i=1;i<=N/2;i++)
 	{
-		//cout<<arr[i];
-		f=i;
 		ele=arr[f];
 		s=2*f;
 		if(s<N)
