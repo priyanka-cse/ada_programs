@@ -13,7 +13,7 @@ int main()
 	}
 	for(i=1;i<=N/2;i++)
 	{
-		ele=arr[f];
+		ele=arr[i];
 		s=2*f;
 		if(s<N)
 		{
