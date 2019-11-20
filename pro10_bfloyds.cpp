@@ -18,7 +18,7 @@ int main()
     		cin>>graph[i][j];
     	}
     }
-	for (i=1; i<=V; i++)  
+	for (i=1; i<=V; i++)  pro9_bfloyds.cpp
         for (j=1; j<=V; j++)  
             dist[i][j] = graph[i][j];  
   for (k=1;k<=V;k++)  
